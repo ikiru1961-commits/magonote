@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>孫の手くん | 広島市の不用品回収・お片付け</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        /* カスタム設定：必要に応じて色などを調整できます */
+        :root {
+            --primary-color: #16a34a; /* Tailwindのgreen-600 */
+        }
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            color: #333;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 flex flex-col min-h-screen">
+
+    <!-- ヘッダー -->
+    <header class="bg-white shadow-sm sticky top-0 z-10">
+        <div class="max-w-5xl mx-auto px-4 py-3 flex justify-between items-center">
+            <h1 class="text-2xl md:text-3xl font-bold text-green-700 flex items-center">
+                <i data-lucide="leaf" class="mr-2 h-6 w-6 md:h-8 md:w-8"></i>
+                孫の手くん
+            </h1>
+            <div class="hidden md:block text-right">
+                <p class="text-sm text-gray-600">お気軽にご相談ください</p>
+                <a href="tel:09028640810" class="text-xl font-bold text-gray-800 hover:text-green-600 transition">
+                    📞 090-2864-0810
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- メインビジュアル（ヒーローセクション） -->
+    <section class="bg-green-50 py-16 md:py-24">
+        <div class="max-w-5xl mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-5xl font-extrabold text-gray-800 mb-6 leading-tight">
+                地域の御用聞き<br class="md:hidden">として<br>
+                <span class="text-green-600">不用品回収・お片付け</span>を<br class="md:hidden">サポートします
+            </h2>
+            <p class="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+                広島市を中心に、ご家庭で不要になったものの回収から、お部屋の片付けまで。小さなことでも「孫の手くん」にお任せください！
+            </p>
+            <a href="#contact" class="inline-flex items-center justify-center bg-green-600 hover:bg-green-700 text-white text-lg font-bold py-4 px-8 rounded-full shadow-lg transition-transform transform hover:-translate-y-1">
+                <i data-lucide="phone-call" class="mr-2 h-5 w-5"></i>
+                今すぐ相談する
+            </a>
+        </div>
+    </section>
+
+    <!-- サービス内容 -->
+    <section class="py-16 bg-white">
+        <div class="max-w-5xl mx-auto px-4">
+            <h3 class="text-2xl font-bold text-center text-gray-800 mb-10 border-b-2 border-green-500 pb-2 inline-block mx-auto flex justify-center">
+                事業内容
+            </h3>
+            
+            <div class="grid md:grid-cols-2 gap-8 mt-8">
+                <!-- サービス1 -->
+                <div class="bg-gray-50 rounded-xl p-8 text-center shadow-sm border border-gray-100">
+                    <div class="bg-green-100 text-green-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i data-lucide="trash-2" class="h-8 w-8"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-3">不用品回収</h4>
+                    <p class="text-gray-600">
+                        ご家庭で使わなくなった家具や家電、粗大ゴミなど、1点からでも回収にお伺いいたします。
+                    </p>
+                </div>
+
+                <!-- サービス2 -->
+                <div class="bg-gray-50 rounded-xl p-8 text-center shadow-sm border border-gray-100">
+                    <div class="bg-green-100 text-green-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i data-lucide="package-check" class="h-8 w-8"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-3">お片付け</h4>
+                    <p class="text-gray-600">
+                        お部屋の整理整頓、引越し前後のお片付けなど、ご自身では手が回らない作業をお手伝いします。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 会社概要 -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-3xl mx-auto px-4">
+            <h3 class="text-2xl font-bold text-center text-gray-800 mb-10 border-b-2 border-green-500 pb-2 inline-block mx-auto flex justify-center">
+                会社概要
+            </h3>
+            
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-200">
+                <table class="w-full text-left border-collapse">
+                    <tbody>
+                        <tr class="border-b border-gray-100">
+                            <th class="py-4 px-6 bg-gray-50 font-semibold text-gray-700 w-1/3">社名</th>
+                            <td class="py-4 px-6 text-gray-800">孫の手くん</td>
+                        </tr>
+                        <tr class="border-b border-gray-100">
+                            <th class="py-4 px-6 bg-gray-50 font-semibold text-gray-700">事業内容</th>
+                            <td class="py-4 px-6 text-gray-800">不用品回収、かたずけ</td>
+                        </tr>
+                        <tr class="border-b border-gray-100">
+                            <th class="py-4 px-6 bg-gray-50 font-semibold text-gray-700">所在地</th>
+                            <td class="py-4 px-6 text-gray-800">
+                                〒734-0034<br>
+                                広島市南区丹那町66番26号
+                            </td>
+                        </tr>
+                        <tr class="border-b border-gray-100">
+                            <th class="py-4 px-6 bg-gray-50 font-semibold text-gray-700">電話番号</th>
+                            <td class="py-4 px-6 text-gray-800 font-bold">090-2864-0810</td>
+                        </tr>
+                        <tr class="border-b border-gray-100">
+                            <th class="py-4 px-6 bg-gray-50 font-semibold text-gray-700">FAX</th>
+                            <td class="py-4 px-6 text-gray-800">082-256-7121</td>
+                        </tr>
+                        <tr class="border-b border-gray-100">
+                            <th class="py-4 px-6 bg-gray-50 font-semibold text-gray-700">メールアドレス</th>
+                            <td class="py-4 px-6 text-gray-800">
+                                <a href="mailto:je@jetz39.pupu.jp" class="text-green-600 hover:underline">je@jetz39.pupu.jp</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="py-4 px-6 bg-gray-50 font-semibold text-gray-700">許認可</th>
+                            <td class="py-4 px-6 text-gray-800 text-sm md:text-base">
+                                古物商許可<br>
+                                広島県公安委員会 第731032500022号
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- お問い合わせセクション -->
+    <section id="contact" class="py-16 bg-green-600 text-white">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h3 class="text-3xl font-bold mb-6">お問い合わせ・お見積り</h3>
+            <p class="mb-8 text-green-100">
+                お困りごとがございましたら、まずはお気軽にご連絡ください。<br>
+                お見積りは無料です。
+            </p>
+            
+            <div class="flex flex-col md:flex-row justify-center items-center gap-6">
+                <!-- 電話 -->
+                <div class="bg-white text-gray-800 rounded-xl p-6 w-full md:w-auto shadow-lg">
+                    <p class="text-sm text-gray-500 mb-1 font-semibold">お電話でのご相談</p>
+                    <a href="tel:09028640810" class="text-3xl font-bold text-green-600 flex items-center justify-center hover:text-green-700 transition">
+                        <i data-lucide="phone" class="mr-2 h-6 w-6"></i>
+                        090-2864-0810
+                    </a>
+                </div>
+                
+                <!-- メール -->
+                <div class="bg-white text-gray-800 rounded-xl p-6 w-full md:w-auto shadow-lg">
+                    <p class="text-sm text-gray-500 mb-1 font-semibold">メールでのご相談</p>
+                    <a href="mailto:je@jetz39.pupu.jp" class="text-xl font-bold text-green-600 flex items-center justify-center hover:text-green-700 transition mt-1">
+                        <i data-lucide="mail" class="mr-2 h-6 w-6"></i>
+                        je@jetz39.pupu.jp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="bg-gray-800 text-gray-400 py-8 mt-auto">
+        <div class="max-w-5xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-4 md:mb-0 text-center md:text-left">
+                <h2 class="text-xl font-bold text-white mb-2">孫の手くん</h2>
+                <p class="text-sm">〒734-0034 広島市南区丹那町66番26号</p>
+            </div>
+            <div class="text-sm">
+                &copy; <span id="year"></span> 孫の手くん. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // アイコンの初期化
+        lucide.createIcons();
+        
+        // フッターの年を自動更新
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
